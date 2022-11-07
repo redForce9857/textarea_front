@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./index.css";
 import RickRoll from "./button";
 
+
 function App() {
   const [text, setText] = useState("");
   const [timeRemaining, setTimeRemaining] = useState(10);
